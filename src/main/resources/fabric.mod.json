@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "antimobtorch",
+	"version": "${version}",
+	"name": "antimobtorch",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": " MOD PAGE URL",
+		"sources": " GIT URL",
+		"issues": "https://github.com/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/antimobtorch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ndrsbox.antimobtorch.Antimobtorch"
+		],
+		"client": [
+			"com.ndrsbox.antimobtorch.client.AntimobtorchClient"
+		]
+	},
+	"mixins": [
+		"antimobtorch.mixins.json",
+		{
+			"config": "antimobtorch.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
