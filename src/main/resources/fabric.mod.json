@@ -8,9 +8,9 @@
 		"Me!"
 	],
 	"contact": {
-		"homepage": " MOD PAGE URL",
-		"sources": " GIT URL",
-		"issues": "https://github.com/issues"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/anti-mob-torch-fabric",
+		"sources": "https://github.com/Ender3D/minecraft-mod-lightning-fast-hopper",
+		"issues": "https://github.com/Ender3D/minecraft-mod-lightning-fast-hopper/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/antimobtorch/icon.png",
